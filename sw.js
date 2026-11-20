@@ -1,5 +1,5 @@
 // Service worker: aplikasi bisa dibuka offline. Naikkan nomor VERSI setiap kali file aplikasi diperbarui.
-const VERSI = 'audit-harian-v1';
+const VERSI = 'audit-harian-v2';
 const FILES = ['./', 'index.html', 'manifest.json', 'icon-192.png', 'icon-512.png', 'vendor/xlsx.full.min.js'];
 
 self.addEventListener('install', e => {
